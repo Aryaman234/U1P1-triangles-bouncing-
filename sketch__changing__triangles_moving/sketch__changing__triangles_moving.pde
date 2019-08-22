@@ -38,6 +38,8 @@ void setup()
 
 void draw()
 {
+  background(0);
+  
   fill(random(255),random(255),random(255));
   ellipse(400, 400, x, y);
   x=x+5;
